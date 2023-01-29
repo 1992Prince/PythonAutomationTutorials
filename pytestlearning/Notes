@@ -1,0 +1,8 @@
+1) pytest file always starts with test_filename or ends with filename_test
+   or else pytest will not consider it as pytest file
+2) testcase inside pytest file must starts with test_functionname
+3) running command pytest will execute all tcs in that folder
+4) if u want to run any specific tc file then give command : pytest filename.py
+   command : pytest filename.py will not print any thing in console
+   If u want output in console then give command : pytest filename.py -s
+   If u want result also to be printed like PASSED then give command : pytest filename.py -s -v
